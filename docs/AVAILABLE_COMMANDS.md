@@ -9,9 +9,9 @@ Current file name with extension
 
 
 ### `___PROJECTNAME___`
-Current project name
+Current .xcodeproj project name
 
-* `TODO`
+* `[Whatever before].xcodeproj`
 
 
 ### `___FULLUSERNAME___`
@@ -27,17 +27,13 @@ Current date without time in user's default format
 * `22.01.2018`
 
 
-### `___PROJECTNAME___`
-Current project name
-
-* `TODO`
-
 
 ### `___COPYRIGHT___`
 Copyright created from current date and project's company name 
 
 * `Copyright © 2018 MartinPucik. All rights reserved.`
-* 
+
+
 
 ### `___FILEBASENAMEASIDENTIFIER___`
 Name of the class entered in new file dialog. If `NewViewClass` is entered, this would be the value if this placeholder.
