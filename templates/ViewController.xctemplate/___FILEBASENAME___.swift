@@ -19,8 +19,6 @@ class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
         setupConstraints()
     }
 
-    required init?(coder aDecoder: NSCoder) { return nil }
-
     // MARK: - Public Interface
     
 }
