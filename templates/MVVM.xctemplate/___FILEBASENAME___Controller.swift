@@ -17,6 +17,7 @@ class ___VARIABLE_moduleName___Controller: UIViewController {
     init(withViewModel viewModel: ___VARIABLE_moduleName___ViewModel) {
         self.viewModel = viewModel
         super.init(nibName: nil, bundle: nil)
+        self.viewModel.delegate = self
     }
 
     override func viewDidLoad() {
@@ -31,10 +32,14 @@ class ___VARIABLE_moduleName___Controller: UIViewController {
     
 }
 
+extension ___VARIABLE_moduleName___Controller: ___VARIABLE_moduleName___Protocol {
+
+}
+
 // MARK: - Private Methods
 private extension ___VARIABLE_moduleName___Controller {
     func setupLayout() {
-
+        view.backgroundColor = UIColor.white
     }
 
     func setupConstraints() {
